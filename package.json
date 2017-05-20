@@ -1,0 +1,33 @@
+{
+  "name": "format-to-accept",
+  "version": "1.0.0",
+  "description": "Translates a file extension parameter to an accept header",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zazukoians/format-to-accept.git"
+  },
+  "keywords": [
+    "accept",
+    "format"
+  ],
+  "author": "Thomas Bergwinkl <bergi@axolotlfarm.org> (https://www.bergnet.org/people/bergi/card#me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zazukoians/format-to-accept/issues"
+  },
+  "homepage": "https://github.com/zazukoians/format-to-accept",
+  "dependencies": {
+    "caseless": "^0.12.0",
+    "mime-types": "^2.1.15"
+  },
+  "devDependencies": {
+    "express": "^4.15.3",
+    "mocha": "^3.4.1",
+    "standard": "^10.0.2",
+    "supertest": "^3.0.0"
+  }
+}
